@@ -5,15 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>TODO APP</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="main">
-      <h1>Todo List</h1>
-      <input type="text" id="todo" />
-      <button id="add-todo">Add Todo</button>
-
-      <div id="todos"></div>
-    </div>
+    <section>
+      <div class="header">Todo List</div>
+      <div class="main">
+        <div class="input">
+          <input type="text" class="input-field" id="todo" placeholder="add something.." />
+          <button id="add-todo">Add Todo</button>
+        </div>
+      </div>
+      <!-- generated todos are inserted here -->
+      <div class="todo-list" id="todos"></div>
+    </section>
     <script src="index.js"></script>
   </body>
 </html>

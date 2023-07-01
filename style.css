@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: beige;
+}
+
+section {
+  width: 900px;
+  margin: 48px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aquamarine; */
+}
+
+section > div {
+  background-color: white;
+  color: white;
+  width: 600px;
+  text-align: center;
+  padding: 12px 24px;
+  /* margin: 10px; */
+  /* line-height: 75px; */
+  /* font-size: 30px; */
+}
+.header {
+  font-size: 48px;
+  color: purple;
+  /* padding: 12px 24px; */
+}
+
+.main {
+  /* padding: 12px 24px; */
+  /* background-color: red; */
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.input-field {
+  width: 75%;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+#add-todo {
+  width: 15%;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+#add-todo:hover {
+  color: white;
+  background-color: lightgreen;
+}
+
+.todo-list {
+  /* padding: 12px 24px; */
+}
+
+.div-li {
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.div-li p {
+  width: 75%;
+  padding: 8px 16px;
+  background-color: purple;
+  border-radius: 5px;
+}
+
+.div-li button {
+  width: 15%;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+.div-li button:hover {
+  color: white;
+  background-color: red;
+  font-weight: bold;
+}
